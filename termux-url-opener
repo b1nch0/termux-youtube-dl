@@ -46,7 +46,7 @@ printf "$G ╚═➤  $W"
 while :
 do
     
-    timeout 30 read INPUT_STRING
+    read -t 30 INPUT_STRING
     [[ -z "$INPUT_STRING" ]] && INPUT_STRING=1
     case $INPUT_STRING in
         1)
