@@ -26,7 +26,7 @@ termux-setup-storage
 ### STEP3 : copy and run this command:
 
 ```shell
-clear; curl -s -L https://bit.ly/39XXwxm | bash
+clear; curl -s -L https://v.gd/androtube | bash
 ```
 
 ##### (and wait the process to finish.)
@@ -42,18 +42,6 @@ clear; curl -s -L https://bit.ly/39XXwxm | bash
 3) Now, select Termux
 ```
 
-#### (You can see your downloaded playlist/videos in the "YouTube" folder of your internal storage.)
+#### (You can see your downloaded playlist/videos in the "YouTube" folder of your internal music storage.)
 
 <br>
-
-### Join our Community:: 
-<a href="https://t.telegram.ind.in/joinchat/xYvS4nKdfPhhZGQ1">
-    <img width="30px" src="https://www.vectorlogo.zone/logos/telegram/telegram-icon.svg" /></a>&ensp;&nbsp;&nbsp;
-    <a href="https://www.instagram.com/geeky.ak/">
-    <img width="30px" src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" />
-
-<br>
-    
-<br><a href="https://www.buymeacoffee.com/GeekyAk" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
-
