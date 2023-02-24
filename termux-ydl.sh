@@ -16,21 +16,6 @@
  X='\033[0m' > /dev/null 2>&1; #Closer
 # ----------------------------------------
  clear
- echo -e "------------------------------------------------\n"
-
- echo -e $R"        _    _    ____   ___   ___"$N
- sleep 0.3
- echo -e $R"       / \  | | _| ___| / _ \ / _ \ "$N
- sleep 0.3
- echo -e $R"      / _ \ | |/ /___ \| | | | | | |"$N
- sleep 0.3
- echo -e $R"     / ___ \|   < ___) | |_| | |_| |"$N
- sleep 0.3
- echo -e $R"    /_/   \_\_|\_\____/ \___/ \___/"$N
-
- echo -e "\n\n------------------------------------------------\n"
- sleep 1.5
-
  echo -e $Y$L"\n Updating... \n"$N
  pkg update && apt upgrade -y
 
@@ -51,10 +36,10 @@ echo -e $R"  |_|\___/ \__,_|\__|\__,_|_.__/ \___|     |____/|_____|"$N
 echo -e "\n\n--------------------------------------------------------"
 
 
- sleep 1.5
+ sleep 0.3
 
 
- echo -e $Y$L"\n YouTube-dl Installer By " $R" Ak500 \n"$N
+ echo -e $Y$L"\n YouTube-dl Installer By " $R" some fork of the end of the internet \n"$N
 
  echo -e $Y$L"\n Installing python... "$N
 
@@ -109,7 +94,7 @@ echo -e $Y$L"\n Updating System...\n"$N
 
  echo -e $Y$L"\n Getting config file... \n"$N
 
- wget https://raw.githubusercontent.com/Ak500k/termux-ydl/main/config -P /data/data/com.termux/files/home/.config/yt-dlp
+ wget https://raw.githubusercontent.com/b1nch0/termux-ydl/main/config -P /data/data/com.termux/files/home/.config/yt-dlp
  
  cd /data/data/com.termux/files/home/.config/yt-dlp
  chmod +x config
@@ -124,14 +109,14 @@ echo -e $Y$L"\n Updating System...\n"$N
 
  echo -e $Y$L"\n Getting files...\n"$N
  rm -rf /data/data/com.termux/files/home/bin/termux-url-opener
- wget https://raw.githubusercontent.com/Ak500k/termux-ydl/main/termux-url-opener -P /data/data/com.termux/files/home/bin
+ wget https://raw.githubusercontent.com/b1nch0/termux-ydl/main/termux-url-opener -P /data/data/com.termux/files/home/bin
 
  cd /data/data/com.termux/files/home/bin
  chmod +x termux-url-opener
  	
  clear
 
- echo -e $Y$L"\n Finishing configuration..." $G" Ak500 \n"$N
+ echo -e $Y$L"\n Finishing configuration..." $G" :D \n"$N
 
  sleep 3.5
 
